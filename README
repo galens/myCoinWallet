@@ -1,0 +1,4 @@
+This is a basic php bitcoin wallet that uses the jsonRPCClient and curl to interface with the bitcoin client.
+It currently can create addresses, send and receive coins.
+
+This can easily be adopted to any altcoin.

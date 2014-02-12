@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	color: #bbbbbb;
+	background: black;
+	font-family: arial;
+}
+
+a{
+	color: #7f7f7f;
+	text-decoration:none;
+}
+
+a:hover{
+	color: white;
+	text-decoration:none;
+}
+
+h1{
+	color: white;
+}
+
+#main{
+	width: 890px; /*Width of main container*/
+	margin: 0 auto; /*Center container on page*/
+}
+
+#top{
+	background: black;
+	height: 100px; /*Height of top section*/
+}
+
+#top h1{
+	margin: 0;
+	padding-top: 15px;
+}
+
+#wrapper{
+	float: left;
+	width: 100%;
+}
+
+#content{
+	margin-left: 150px; /*Set left margin to LeftColumnWidth*/
+	background: black;
+}
+
+#menu{
+	float: left;
+	width: 150px; /*Width of left column*/
+	margin-left: -890px; /*Set left margin to -(MainContainerWidth)*/
+	background: black;
+	font-weight: bold;
+}
+
+#menu a{
+	color: #7f7f7f;
+	text-decoration:none;
+	display:block;
+}
+
+#menu a:hover{
+	color: white;
+	text-decoration:none;
+}
+
+#footer{
+	clear: left;
+	width: 100%;
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 4px 0;
+	font-family: arial;
+	font-weight: bold;
+}
+
+#footer a{
+	color: #7f7f7f;
+	text-decoration:none;
+}
+
+#footer a:hover{
+	color: white;
+	text-decoration:none;
+}
+
+.innermargin{
+	margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+	margin-top: 30px;
+}
+
+.menumargin{
+	margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+	margin-top: 60px;
+}
+
+.logomargin{
+	margin-top: 5px;
+	margin-left: 250px;
+}
