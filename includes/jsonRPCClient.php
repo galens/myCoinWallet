@@ -27,6 +27,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  *
  * @author sergio <jsonrpcphp@inservibile.org>
  */
+ 
+ /* converted old fopen method to curl and added ability to use ssl - Galen */
 
 class jsonRPCClient {  
 	/**
